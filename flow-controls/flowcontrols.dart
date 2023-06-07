@@ -10,13 +10,59 @@ Notes ...................................
   true
 * 
 
-
+ 
 */  
 
+int number = 34;
+int numberTwo = 2;
+
 //----------------------------------------------------------------
 //----------------------------------------------------------------
 //----------------------------------------------------------------
 
+// switch case .............................
+var age = 30;
+
+if(age == 19){
+  print("You old enough to buy cigarates");
+}else if(age == 17){
+  print("Nope you can not buy that");
+}else if(age == 14){
+  print("Nope you can not buy that");
+}
+
+
+
+switch (age){
+  case 19:
+    print("Old enough");
+    break;
+  case 20:
+    print("still good");
+    break;
+  case 89:
+    print("print old");
+    break;
+  default:
+    print("Defaultt $age");  
+}
+
+
+
+
+
+
+
+
+
+
+//while loop ...............................
+
+while(true){
+  if(number >= 34)
+    print("Going ..");
+  break;
+}
 
 //for loop ...............................
 
